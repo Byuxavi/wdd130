@@ -1,0 +1,130 @@
+:root {
+    --primary-color: #2a9d8f; /* Persian Green */
+    --secondary-color: #0077b6; /* Honolulu Blue */
+    --accent1-color: #e9c46a; /* Saffron */
+    --accent2-color: #f4a261; /* Sandy Brown */
+    --accent3-color: #d9d9d9; /* Platinum */
+    
+    --heading-font: 'Montserrat', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    font-family: var(--text-font);
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    background-color: var(--accent3-color);
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+  }
+  
+  
+  .hero {
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%; /* Mantener imagen al 100% del ancho */
+    height: 600px; /* Fijar altura máxima para imágenes grandes */
+    object-fit: cover; /* Asegura que la imagen se recorte para llenar el contenedor sin distorsión */
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero article {
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    background-color: rgba(244, 162, 97, 0.8); /* Usar Sandy Brown con opacidad */
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    max-width: 300px;
+  }
+  
+  .hero article img {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    object-fit: cover; /* Ajuste para que no se distorsione la imagen pequeña */
+  }
+  
+  
+  section img {
+    display: inline-block;
+    width: 30%; /* Ajuste de tamaño para cada imagen */
+    height: 250px; /* Limitar altura para uniformidad */
+    margin: 10px;
+    object-fit: cover; /* Recortar la imagen para mantener proporciones */
+    border-radius: 10px; /* Un toque de estilo */
+  }
+  
+  
+  .sociallinks a {
+    text-decoration: none;
+  }
+  
+  .sociallinks img {
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  footer {
+    text-align: center;
+    color: var(--accent2-color);
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    color: var(--accent1-color);
+  }
+  
+  
