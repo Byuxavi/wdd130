@@ -162,7 +162,7 @@ nav a:hover {
 
 section img {
   display: inline-block;
-  width: 18%; 
+  width: 17%; 
   height: 200px; 
   margin: 10px;
   object-fit: cover;
@@ -184,6 +184,12 @@ section img:hover {
   margin: 0 10px;
 }
 
+.sociallinks {
+  display: flex;
+  text-align: right;          
+  justify-content: flex-end; 
+  margin-bottom: 20px;       
+}
 footer {
   text-align: center;
   color: var(--accent2-color);
