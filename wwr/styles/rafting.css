@@ -86,7 +86,7 @@ nav a:hover {
 
 .hero {
   position: relative;
-  width: full;
+  width: 100%;
 }
 
 .hero img {
